@@ -1,6 +1,6 @@
 document.write('<div class="pers">')
-for (var i=0;i<20;i++){
-	document.write('<div class="box"></div>');
+for (var i=1;i<6;i++){
+	document.write('<div class="box"><img src="images/'+i+'.jpg" /></div>');
 }
 document.write('</div>')
 function rnd(a,b){
