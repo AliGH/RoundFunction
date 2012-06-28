@@ -1,5 +1,5 @@
 document.write('<div class="pers">')
-for (var i=1;i<6;i++){
+for (var i=1;i<7;i++){
 	document.write('<div class="box"><img src="images/'+i+'.jpg" /></div>');
 }
 document.write('</div>')
